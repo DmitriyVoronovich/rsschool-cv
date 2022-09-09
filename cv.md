@@ -33,3 +33,13 @@ function inArray(array1,array2){
     return newArray.sort().filter((val, ind, arr) => arr.indexOf(val) === ind);
   }
 ```
+## Education
+****
+**Courses**:
+* HTML Academy
+* Udemy (JavaScript+React  in progress)
+## Languages
+*******
+**Russian** - native speaker
+
+**English** - A2 (B1 in process)
