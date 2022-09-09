@@ -17,3 +17,19 @@ My goal is to learn everything new and exciting. I can spend a lot of time doing
 * JavaScript Basics
 * Git, GitHub
 * VS Code
+## Code example
+*******
+**Task**: Given two arrays of strings ***a1*** and ***a2*** return a sorted array ***r*** in lexicographical order of the strings of ***a1*** which are substrings of strings of ***a2***.
+```aidl
+function inArray(array1,array2){
+    let newArray = [];
+    for (let i = 0; i < array2.length; i++) {
+        for (let j = 0; j < array1.length; j++) {
+            if (array2[i].includes(array1[j])) {
+                newArray.push(array1[j]);
+            }
+        }
+    }
+    return newArray.sort().filter((val, ind, arr) => arr.indexOf(val) === ind);
+  }
+```
