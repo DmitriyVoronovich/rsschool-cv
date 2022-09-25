@@ -478,6 +478,8 @@ button {
 }
 
 .button-choose {
+color: #FFFFFF !important;
+  text-decoration: none;
     position: absolute;
     width: 298px;
     height: 54px;
