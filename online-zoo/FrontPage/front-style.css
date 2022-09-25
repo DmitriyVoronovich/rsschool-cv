@@ -680,6 +680,8 @@ button {
 }
 
 .link-donat-s3 {
+color: #333B41 !important;
+  text-decoration: none;
     text-decoration: underline;
     text-decoration-color: #F9804B;
 }
@@ -868,6 +870,8 @@ button {
 }
 
 .button-donate {
+color: #FFFFFF !important;
+  text-decoration: none;
     position: absolute;
     width: 298px;
     height: 54px;
