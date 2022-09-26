@@ -505,7 +505,7 @@ color: #FFFFFF !important;
     position: absolute;
     width: 62px;
     height: 62px;
-    right: 1400px;
+    left: 138px;
     top: 1906px;
 }
 
@@ -539,7 +539,7 @@ color: #FFFFFF !important;
     position: absolute;
     width: 62px;
     height: 62px;
-    right: 70px;
+    right: 140px;
     top: 1906px;
 }
 
@@ -715,7 +715,7 @@ color: #333B41 !important;
 .block {
     position: absolute;
     top: -70px;
-    left: 170px;
+    left: 198px;
     width: 746px;
     height: 244px;
     display: grid;
@@ -1300,7 +1300,7 @@ input[type='range']::-webkit-slider-thumb {
     position: absolute;
     width: 270.92px;
     height: 460.45px;
-    left: 1248.67px;
+    right: 0;
     top: 4220.88px;
 }
 
