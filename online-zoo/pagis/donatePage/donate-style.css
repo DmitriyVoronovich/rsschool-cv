@@ -2001,6 +2001,10 @@ footer ul.footer-navigation {
     }
 }
 @media screen and (min-width: 1600px) {
+    footer {
+        position: relative;
+        width: 1600px;
+    }
     footer .footer-container {
         width: 1600px;
         grid-template-rows: 125px 90px 1fr;
