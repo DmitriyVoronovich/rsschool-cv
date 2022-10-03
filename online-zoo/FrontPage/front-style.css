@@ -985,10 +985,11 @@ li {
 }
 
 .strelitzia {
+    position: absolute;
     width: 241px;
     height: auto;
-    left: 759px;
-    top: -15px;
+    left: 599px;
+    top: 170px;
 }
 }
     @media (max-width: 780px) {
@@ -1056,8 +1057,8 @@ li {
 
         .strelitzia {
             width: 175px;
-            left: 465px;
-            top: -112px;
+            left: 265px;
+            top: 22px;
         }
     }
     @media (max-width: 400px) {
@@ -1105,8 +1106,8 @@ li {
 
         .strelitzia {
             width: 85px;
-            left: 252px;
-            top: -15px;
+            left: 170px;
+            top: 43px;
         }
     }
 
