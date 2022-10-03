@@ -933,6 +933,7 @@ li {
 
 .strelitzia {
     position: relative;
+    margin: 0;
     width: 368px;
     height: 225px;
     left: 1230px;
@@ -1686,10 +1687,7 @@ height: 222px;
     }
 }
     /* section5 */
-.testimonials-container {
-    display: flex;
-    justify-content: center;
-}
+
 .testimonials-container .testimonials {
     font-family: "Roboto";
     font-style: normal;
@@ -1895,6 +1893,8 @@ height: 222px;
 }
 @media screen and (min-width: 1600px) {
     .testimonials-container .testimonials {
+        position: relative;
+        top: -370px;
         width: 1600px;
         height: 920px;
     }
@@ -1950,13 +1950,11 @@ height: 222px;
 /*fotter*/
 
 
-footer {
+footer .footer-container {
 
     background: #000000;
     font-family: "Roboto", serif;
     font-style: normal;
-    display: flex;
-    justify-content: center;
 }
 footer a {
     text-decoration: none;
@@ -2149,6 +2147,10 @@ footer ul.footer-navigation {
     }
 }
 @media screen and (min-width: 1600px) {
+    footer {
+        position: relative;
+        top: -560px;
+    }
     footer .footer-container {
         width: 1600px;
         grid-template-rows: 125px 90px 1fr;
