@@ -2003,7 +2003,7 @@ footer ul.footer-navigation {
 @media screen and (min-width: 1600px) {
     footer {
         position: relative;
-        top: -560px;
+        width: 1600px;
     }
     footer .footer-container {
         width: 1600px;
